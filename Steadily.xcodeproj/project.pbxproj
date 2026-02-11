@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44570A9063B191CC14711151 /* generate_marketing_screenshots.py in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_20A1F65A-A532-4A2D-84F7-AC5839B5100F" /* generate_marketing_screenshots.py */; };
+		463093C60812EC746721A74A /* HabitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A560233F966E19A3F00EF3 /* HabitStore.swift */; };
+		504D5DBB09A8AD7AB68E56F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_9350E586-715F-484E-97B9-0A3FCAC17677" /* ContentView.swift */; };
+		56432DA483EC204838CA1866 /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580A37C3E4A96482E8A94B5 /* HabitsView.swift */; };
+		61E4FF8859FAF430A61609E7 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC169E954CEC328623243A /* AddHabitView.swift */; };
+		702CF3555FCB911E5B767192 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97186A9C9BEAEE3660C6ED8 /* SettingsView.swift */; };
+		72CB8B6441495FDC9952AA78 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4419A2B63D90AC605684 /* InsightsView.swift */; };
+		7367D550B495433671487CD3 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292CFFB8BA3CF4D2DEEDF429 /* TodayView.swift */; };
+		7896D241F822CA041DDB0FCA /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293741BB66D152A6AD3E7025 /* HabitDetailView.swift */; };
+		800194B055B784F250BB3F67 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81582465E343BD2082483BA9 /* UserPreferences.swift */; };
+		936DD957659BB47B10CE540C /* onboarding.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C57EF7E087F22643619286 /* onboarding.png */; };
+		97EE753C90CE05606C62FACA /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540AF592311BE08859F7522E /* Habit.swift */; };
+		A957603758E170D148325475 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D9CB443CD07C1533CB062 /* OnboardingView.swift */; };
+		AECE85B438FB02218868FC30 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B91C7612DF8E25F57125E3 /* PaywallView.swift */; };
+		B07DC27AAB0134A6643A7062 /* SteadilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65211F95F825B81683174F4 /* SteadilyTests.swift */; };
+		C132FC65D55626C6950850E3 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84850FDCCB590D7F49A35744 /* SubscriptionManager.swift */; };
+		CBBD357E56B2342FFE843EA7 /* habits.png in Resources */ = {isa = PBXBuildFile; fileRef = 0462FCAE1AD359BAF9673377 /* habits.png */; };
+		D0486BB457223C94D7501F0F /* today.png in Resources */ = {isa = PBXBuildFile; fileRef = FD422ADC34C73F5A68413A36 /* today.png */; };
+		D13F113F264EF2AB8294B337 /* SteadilyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_6F4111E8-28CB-4429-9C90-F247C1097457" /* SteadilyApp.swift */; };
+		DA2CADA09F6395C6DFBC79B0 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF349C407D8F088AA2286762 /* AppColors.swift */; };
+		EFD2E14D036BCD0DFF5FF7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_AD06055A-6465-4B66-B054-3FBA0F445268" /* Assets.xcassets */; };
+		FB80CF2F1F08A0B60A24544A /* insights.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F64386C59038712A93F5435 /* insights.png */; };
+		FBFD90DF71E18D1C02A0FA07 /* paywall.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C7DDAFC1C9E6D6CB09BB04 /* paywall.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBAB0B2D1D3132DDBC53D935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C710F0AB4CC53F091D39C3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3F313CFDD96219937F4449;
+			remoteInfo = Steadily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0462FCAE1AD359BAF9673377 /* habits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = habits.png; sourceTree = "<group>"; };
+		27DC169E954CEC328623243A /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		292CFFB8BA3CF4D2DEEDF429 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		293741BB66D152A6AD3E7025 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		29C57EF7E087F22643619286 /* onboarding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onboarding.png; sourceTree = "<group>"; };
+		307D9CB443CD07C1533CB062 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3580A37C3E4A96482E8A94B5 /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		3A0C4419A2B63D90AC605684 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		540AF592311BE08859F7522E /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		62C7DDAFC1C9E6D6CB09BB04 /* paywall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paywall.png; sourceTree = "<group>"; };
+		81582465E343BD2082483BA9 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		84850FDCCB590D7F49A35744 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		8F64386C59038712A93F5435 /* insights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insights.png; sourceTree = "<group>"; };
+		A61C0CD6EC5512001CEFCBAA /* SteadilyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SteadilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3187E9C47C1FB27EBCA62F /* Steadily.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Steadily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A560233F966E19A3F00EF3 /* HabitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitStore.swift; sourceTree = "<group>"; };
+		C65211F95F825B81683174F4 /* SteadilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteadilyTests.swift; sourceTree = "<group>"; };
+		D97186A9C9BEAEE3660C6ED8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E9B91C7612DF8E25F57125E3 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		EF349C407D8F088AA2286762 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		FD422ADC34C73F5A68413A36 /* today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today.png; sourceTree = "<group>"; };
+		"TEMP_20A1F65A-A532-4A2D-84F7-AC5839B5100F" /* generate_marketing_screenshots.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = generate_marketing_screenshots.py; sourceTree = "<group>"; };
+		"TEMP_6F4111E8-28CB-4429-9C90-F247C1097457" /* SteadilyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteadilyApp.swift; sourceTree = "<group>"; };
+		"TEMP_9350E586-715F-484E-97B9-0A3FCAC17677" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		"TEMP_AD06055A-6465-4B66-B054-3FBA0F445268" /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EF8226F3D5F8053C8638C05 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D97186A9C9BEAEE3660C6ED8 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		181E212472C7A827BE691F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3187E9C47C1FB27EBCA62F /* Steadily.app */,
+				A61C0CD6EC5512001CEFCBAA /* SteadilyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EA60B848AEF811BF80E12F /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0462FCAE1AD359BAF9673377 /* habits.png */,
+				8F64386C59038712A93F5435 /* insights.png */,
+				29C57EF7E087F22643619286 /* onboarding.png */,
+				62C7DDAFC1C9E6D6CB09BB04 /* paywall.png */,
+				FD422ADC34C73F5A68413A36 /* today.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		378266B83D01122B5A683C12 = {
+			isa = PBXGroup;
+			children = (
+				54C86A17F37E7CCD29A4C2CA /* Models */,
+				27EA60B848AEF811BF80E12F /* screenshots */,
+				6B9EA653C37852401F881AEE /* Services */,
+				55A6974E8DE713F8587F8C9D /* Tests */,
+				A74B51EDC15EB0278B938F1B /* Theme */,
+				BD6C34B91DE304794A6CFA23 /* Views */,
+				181E212472C7A827BE691F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5470B121353B35F2D0D83A94 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				307D9CB443CD07C1533CB062 /* OnboardingView.swift */,
+				E9B91C7612DF8E25F57125E3 /* PaywallView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		54C86A17F37E7CCD29A4C2CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				540AF592311BE08859F7522E /* Habit.swift */,
+				C5A560233F966E19A3F00EF3 /* HabitStore.swift */,
+				81582465E343BD2082483BA9 /* UserPreferences.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55A6974E8DE713F8587F8C9D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C65211F95F825B81683174F4 /* SteadilyTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5CB7CB21EAA1ECEDC0076BF3 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				3A0C4419A2B63D90AC605684 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		6B9EA653C37852401F881AEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84850FDCCB590D7F49A35744 /* SubscriptionManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A74B51EDC15EB0278B938F1B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				EF349C407D8F088AA2286762 /* AppColors.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		B6224A67B182541B523EACC6 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				292CFFB8BA3CF4D2DEEDF429 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		BD6C34B91DE304794A6CFA23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7F5716415DB08B2AC6939E9 /* Habits */,
+				5CB7CB21EAA1ECEDC0076BF3 /* Insights */,
+				5470B121353B35F2D0D83A94 /* Onboarding */,
+				0EF8226F3D5F8053C8638C05 /* Settings */,
+				B6224A67B182541B523EACC6 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7F5716415DB08B2AC6939E9 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				27DC169E954CEC328623243A /* AddHabitView.swift */,
+				293741BB66D152A6AD3E7025 /* HabitDetailView.swift */,
+				3580A37C3E4A96482E8A94B5 /* HabitsView.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		"TEMP_7772346E-BFCB-4261-90B3-C2DD0017486C" /* Steadily */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_AD06055A-6465-4B66-B054-3FBA0F445268" /* Assets.xcassets */,
+				"TEMP_20A1F65A-A532-4A2D-84F7-AC5839B5100F" /* generate_marketing_screenshots.py */,
+				"TEMP_6F4111E8-28CB-4429-9C90-F247C1097457" /* SteadilyApp.swift */,
+				"TEMP_9350E586-715F-484E-97B9-0A3FCAC17677" /* ContentView.swift */,
+				27EA60B848AEF811BF80E12F /* screenshots */,
+				54C86A17F37E7CCD29A4C2CA /* Models */,
+				A74B51EDC15EB0278B938F1B /* Theme */,
+				BD6C34B91DE304794A6CFA23 /* Views */,
+				6B9EA653C37852401F881AEE /* Services */,
+			);
+			path = Steadily;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C110578703748AE6A670C5AB /* SteadilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBE22B4A9B37CEA0D979E7D /* Build configuration list for PBXNativeTarget "SteadilyTests" */;
+			buildPhases = (
+				1C834D236756FA2E74E66345 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0315C693915642AA5DF4DD /* PBXTargetDependency */,
+			);
+			name = SteadilyTests;
+			packageProductDependencies = (
+			);
+			productName = SteadilyTests;
+			productReference = A61C0CD6EC5512001CEFCBAA /* SteadilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3F313CFDD96219937F4449 /* Steadily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E690FD6680045F2E753CDD7B /* Build configuration list for PBXNativeTarget "Steadily" */;
+			buildPhases = (
+				BB912E588B4E92C4A8F89671 /* Sources */,
+				89C8B4B8845E8E2B9E9D09FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Steadily;
+			packageProductDependencies = (
+			);
+			productName = Steadily;
+			productReference = BC3187E9C47C1FB27EBCA62F /* Steadily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C710F0AB4CC53F091D39C3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C110578703748AE6A670C5AB = {
+						DevelopmentTeam = 7277AB8379;
+						ProvisioningStyle = Automatic;
+					};
+					CA3F313CFDD96219937F4449 = {
+						DevelopmentTeam = 7277AB8379;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2CB084FBCBEA799621ECD0A /* Build configuration list for PBXProject "Steadily" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 378266B83D01122B5A683C12;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3F313CFDD96219937F4449 /* Steadily */,
+				C110578703748AE6A670C5AB /* SteadilyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C8B4B8845E8E2B9E9D09FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2E14D036BCD0DFF5FF7EF /* Assets.xcassets in Resources */,
+				44570A9063B191CC14711151 /* generate_marketing_screenshots.py in Resources */,
+				CBBD357E56B2342FFE843EA7 /* habits.png in Resources */,
+				FB80CF2F1F08A0B60A24544A /* insights.png in Resources */,
+				936DD957659BB47B10CE540C /* onboarding.png in Resources */,
+				FBFD90DF71E18D1C02A0FA07 /* paywall.png in Resources */,
+				D0486BB457223C94D7501F0F /* today.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C834D236756FA2E74E66345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07DC27AAB0134A6643A7062 /* SteadilyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB912E588B4E92C4A8F89671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E4FF8859FAF430A61609E7 /* AddHabitView.swift in Sources */,
+				DA2CADA09F6395C6DFBC79B0 /* AppColors.swift in Sources */,
+				504D5DBB09A8AD7AB68E56F5 /* ContentView.swift in Sources */,
+				97EE753C90CE05606C62FACA /* Habit.swift in Sources */,
+				7896D241F822CA041DDB0FCA /* HabitDetailView.swift in Sources */,
+				463093C60812EC746721A74A /* HabitStore.swift in Sources */,
+				56432DA483EC204838CA1866 /* HabitsView.swift in Sources */,
+				72CB8B6441495FDC9952AA78 /* InsightsView.swift in Sources */,
+				A957603758E170D148325475 /* OnboardingView.swift in Sources */,
+				AECE85B438FB02218868FC30 /* PaywallView.swift in Sources */,
+				702CF3555FCB911E5B767192 /* SettingsView.swift in Sources */,
+				D13F113F264EF2AB8294B337 /* SteadilyApp.swift in Sources */,
+				C132FC65D55626C6950850E3 /* SubscriptionManager.swift in Sources */,
+				7367D550B495433671487CD3 /* TodayView.swift in Sources */,
+				800194B055B784F250BB3F67 /* UserPreferences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B0315C693915642AA5DF4DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3F313CFDD96219937F4449 /* Steadily */;
+			targetProxy = EBAB0B2D1D3132DDBC53D935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A3C01C3D7D9A49A12F893A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = build/Steadily.xcarchive/Products/Applications/Steadily.app/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Steadily;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.health-and-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.steadily;
+				PRODUCT_NAME = Steadily;
+				SDKROOT = iphoneos;
+				SUPPORTED_DESTINATIONS = "iPhone, iPad";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05B754FE2B9A7FA4CE8C5A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		121D8E5B95F307E23B055FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		366529EB2AB10DE2D168FD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.steadily.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steadily.app/Steadily";
+			};
+			name = Debug;
+		};
+		8798131E10093FDA5E8590C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = build/Steadily.xcarchive/Products/Applications/Steadily.app/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Steadily;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.health-and-fitness";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.steadily;
+				PRODUCT_NAME = Steadily;
+				SDKROOT = iphoneos;
+				SUPPORTED_DESTINATIONS = "iPhone, iPad";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF17C07FB08E7AAFD16C9E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.steadily.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steadily.app/Steadily";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBE22B4A9B37CEA0D979E7D /* Build configuration list for PBXNativeTarget "SteadilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366529EB2AB10DE2D168FD4C /* Debug */,
+				ABF17C07FB08E7AAFD16C9E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E2CB084FBCBEA799621ECD0A /* Build configuration list for PBXProject "Steadily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121D8E5B95F307E23B055FE5 /* Debug */,
+				05B754FE2B9A7FA4CE8C5A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E690FD6680045F2E753CDD7B /* Build configuration list for PBXNativeTarget "Steadily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8798131E10093FDA5E8590C7 /* Debug */,
+				02A3C01C3D7D9A49A12F893A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C710F0AB4CC53F091D39C3F6 /* Project object */;
+}

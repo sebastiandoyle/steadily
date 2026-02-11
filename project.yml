@@ -1,0 +1,56 @@
+name: Steadily
+options:
+  bundleIdPrefix: com.sebastiandoyle
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+targets:
+  Steadily:
+    type: application
+    platform: iOS
+    sources:
+      - path: .
+        excludes:
+          - project.yml
+          - "*.xcodeproj"
+          - build
+          - fastlane
+          - "*.json"
+          - "*.plist"
+          - Tests
+          - "*.storekit"
+    resources:
+      - path: Assets.xcassets
+      - path: Steadily.storekit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sebastiandoyle.steadily
+        PRODUCT_NAME: Steadily
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 2
+        DEVELOPMENT_TEAM: 7277AB8379
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        SUPPORTED_DESTINATIONS: "iPhone, iPad"
+        SWIFT_VERSION: "5.0"
+        INFOPLIST_KEY_CFBundleDisplayName: "Steadily"
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.health-and-fitness"
+
+  SteadilyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+    dependencies:
+      - target: Steadily
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sebastiandoyle.steadily.tests
+        DEVELOPMENT_TEAM: 7277AB8379
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
